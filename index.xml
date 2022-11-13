@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech. Climate. Culture on Digital Futures Told</title>
+    <link>/</link>
+    <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How it is.</title>
+      <link>/posts/how-it-is/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-it-is/</guid>
+      <description>I believe that taking meaningful restorative action for the planet starts with changing our culture, and that culture change requires an understanding of other ways of being. In my own search for alternatives, I read &amp;ldquo;How It Is&amp;rdquo;, by Viola Cordova - a Jicarilla Apache / Hispanic professor of classical Western &amp;amp; Native American philosophy. In Viola&amp;rsquo;s words, &amp;ldquo;I study white people.&amp;rdquo; The book helped me see blindspots in my own world view, as well as insights into a belief system that might make that culture shift possible.</description>
+    </item>
+    
+    <item>
+      <title>What if I didn&#39;t take that all-expenses paid trip?</title>
+      <link>/posts/what-if-i-didnt-fly/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/what-if-i-didnt-fly/</guid>
+      <description>I love to travel. In fact, for the last 25 years I had made it a goal to visit at least one new country a year, because to me, travel felt like the marker of a life fully lived. So when, after 2 years of pandemic isolation, my company resumed its annual all-company offsite meeting in Hawaii, I should have been ecstatic. It was after all not just travel, but free travel.</description>
+    </item>
+    
+    <item>
+      <title>We Are the Weather</title>
+      <link>/posts/we-are-the-weather/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/we-are-the-weather/</guid>
+      <description>After years of knowing the facts, but feeling paralyzed by inaction about climate change, I read a book by Jonathan Safran Foer called We are the Weather, which illucidated 3 easy personal actions we can all take toward saving the planet. If every human did this, we would singlehandedly meet the targets set in the targets for greenhouse gas emissions set forth in the Paris Agreement
+1. No meat before dinner Depending on how you do your accounting, animal agriculture accounts for 24 to &amp;gt;57% of greeenhouse gas emissions.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Exploring solutions in tech, climate, and culture I’m a Design Technologist in Mozilla&amp;rsquo;s Innovation Organization, focused on humans’ relationship to technology and the natural world. My goal is to contribute to impactful solutions that address the climate crisis in ways that foster a healthier relationship between our devices, our surroundings, and each other. This site serves as a way to document and share that progress with others.
+While this blog represents the key things I&amp;rsquo;m focused on right now, you can find my portfolio website at mikeheavers.</description>
+    </item>
+    
+  </channel>
+</rss>

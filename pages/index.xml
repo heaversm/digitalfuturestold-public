@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Digital Futures Told</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Digital Futures Told</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Exploring solutions in tech, climate, and culture I’m a Design Technologist in Mozilla&amp;rsquo;s Innovation Organization, focused on humans’ relationship to technology and the natural world. My goal is to contribute to impactful solutions that address the climate crisis in ways that foster a healthier relationship between our devices, our surroundings, and each other. This site serves as a way to document and share that progress with others.
+While this blog represents the key things I&amp;rsquo;m focused on right now, you can find my portfolio website at mikeheavers.</description>
+    </item>
+    
+  </channel>
+</rss>
