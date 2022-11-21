@@ -26,9 +26,20 @@
     </item>
     
     <item>
+      <title>AI Tradeoffs</title>
+      <link>/posts/ai-tradeoffs/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ai-tradeoffs/</guid>
+      <description>In October I gave a quick (5 minute) lightning talk at Mozilla about the environmental impact of using AI vs. the potential environmental benefits. In the talk I make a Deep Fake of myself and estimate the energy usage in creating it.
+You can watch the video at the link above, but here&amp;rsquo;s a summary of things I learned in the process:
+GPT3 required an estimated 85,000 kg of CO2 to train.</description>
+    </item>
+    
+    <item>
       <title>We Are the Weather</title>
       <link>/posts/we-are-the-weather/</link>
-      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/posts/we-are-the-weather/</guid>
       <description>After years of knowing the facts, but feeling paralyzed by inaction about climate change, I read a book by Jonathan Safran Foer called We are the Weather, which illucidated 3 easy personal actions we can all take toward saving the planet. If every human did this, we would singlehandedly meet the targets set in the targets for greenhouse gas emissions set forth in the Paris Agreement

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AI Tradeoffs - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/ai-tradeoffs/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.3675ec53b35be0b7e588b0b9976f7223c732930a5bc047ff30591656428cc48e.css">
+  
+
+  
+    <meta name="description" content="Examining the cost of training and using AI models vs their potential environmental benefits"/>
+    <meta property="og:title" content="AI Tradeoffs"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/ai-tradeoffs/"/>
+    
+    <meta property="og:description" content="Examining the cost of training and using AI models vs their potential environmental benefits"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>AI Tradeoffs<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>In October I gave a quick (5 minute) <a href="https://www.youtube.com/watch?v=wM7nNKhgsfQ&amp;ab_channel=MikeHeavers">lightning talk at Mozilla about the environmental impact of using AI vs. the potential environmental benefits</a>. In the talk I make a Deep Fake of myself and estimate the energy usage in creating it.</p>
+<p>You can watch the video at the link above, but here&rsquo;s a summary of things I learned in the process:</p>
+<ul>
+<li>
+<p><a href="https://www.theregister.com/2020/11/04/gpt3_carbon_footprint_estimate/">GPT3 required an estimated 85,000 kg of CO2 to train</a>. <a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results">It would take one hundred acres of forest an entire year to sequester that much carbon</a>.</p>
+</li>
+<li>
+<p>As opposed to pre-2010 when AI training times more or less followed Moore&rsquo;s Law, <a href="https://openai.com/blog/ai-and-compute/">the carbon footprint of AI since 2010 has been exponential</a>,with computation costs doubling every few months, and expected to grow at a continued rate of 44% per year through 2025.</p>
+</li>
+</ul>
+<p><img src="/images/posts/2022-10-11-ai-and-compute-all.gif" alt="AI Training Energy Usage"></p>
+<ul>
+<li>
+<p>Machine Learning Inference (using Machine Learning models to generate content vs training them), has a fairly minimal energy impact. Using a software called <a href="https://github.com/mlco2/codecarbon">Code Carbon</a>, I calculated that you could use Stable Diffusion for 3 hours and it would have about the same impact as a full charge of a smart phone.</p>
+</li>
+<li>
+<p>However, energy impact is most strongly influenced by how clean the energy grid it is drawing from. I used a <a href="https://mlco2.github.io/impact/#compute">Machine Learning Carbon Calculator</a> and determined that training a model for 100 hours in Google Cloud&rsquo;s Asia South region would consume <em>forty six times more carbon</em> than a GPU in the europe west region</p>
+</li>
+<li>
+<p>ClimateChange AI keeps a good list of academic papers on the <a href="https://www.climatechange.ai/summaries">postive application of AI in environmental response</a> including traffic and energy forecasting and optimization, reducing system waste, and environmental monitoring and modeling.</p>
+</li>
+</ul>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>
