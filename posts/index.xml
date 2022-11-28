@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Carbon Calculator for Company Travel</title>
+      <link>/posts/multi-flight-carbon-calculator/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/multi-flight-carbon-calculator/</guid>
+      <description>Try it out here
+My company hosted its annual off-site trip for all 1000+ employees in Hawaii. In the process of trying to estimate and understand the implications of this on the environment, I built a tool that estimates the carbon for multiple people traveling to a single destination.
+Why Do We Need This? Flying is one of the most carbon intensive activities an individual can do. A single flight emits more CO2 than a single person in Uganda does in a year.</description>
+    </item>
+    
+    <item>
       <title>How it is</title>
       <link>/posts/how-it-is/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
