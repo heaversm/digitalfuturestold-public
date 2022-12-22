@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Calculating Product Carbon Emissions with Ditch Carbon - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/pni-carbon/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.3675ec53b35be0b7e588b0b9976f7223c732930a5bc047ff30591656428cc48e.css">
+  
+
+  
+    <meta name="description" content="Using the Ditch Carbon API to calculate the product lifecycle carbon emissions of the products in Mozilla&#39;s 2022 Privacy Not Included Guide."/>
+    <meta property="og:title" content="Calculating Product Carbon Emissions with Ditch Carbon"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/pni-carbon/"/>
+    
+    <meta property="og:description" content="Using the Ditch Carbon API to calculate the product lifecycle carbon emissions of the products in Mozilla&#39;s 2022 Privacy Not Included Guide."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Calculating Product Carbon Emissions with Ditch Carbon<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="https://youtu.be/1Q5SxzdsI9M">Youtube Video Walkthrough</a></p>
+<p>Every year Mozilla Privacy not included product review. I wanted to see if next year we can include the energy usage or carbon footprint of these products in the review. So I decided to build a carbon footprint calculator for the products in this year&rsquo;s privacy not included review as a prototype in order to hopefully persuade the team to include it next year.</p>
+<p>The first step was just to reach out to the Mozilla Foundation to see if they&rsquo;d be interested. I got in touch with Jen Caltrider who is one of the people in charge of privacy not included and she seemed to support the idea and put it up for consideration.</p>
+<p>Next I had to find a source for that carbon data so I reached out through a Slack group called <a href="https://climateaction.tech">climateaction.tech</a> and found an API service called Ditch Carbon.</p>
+<p>Ditch Carbon allows you to pass products to the API and get a carbon footprint for their product life cycle.</p>
+<p>Mozilla gave me a data dump of other product review data and from that I extracted the necessary info for the API which is product name company name and product price.</p>
+<p>I had to manually look up the prices of each product as that was not included in the date I got from Mozilla but was necessary in order to calculate the carbon footprint as a fallback via a category spend calculation whenever the manufacturer had not calculated its product LCA, and a category spend method was not available either.</p>
+<p>Once I had that info I aggregated all the data together and used Ditch Carbon to calculate the CO2 emissions.</p>
+<p>I made a mock up of what that would look like for next year&rsquo;s website and hopefully I&rsquo;ll be able to convince the team to include it in the 2023 report.</p>
+<p>You can view the code <a href="https://github.com/heaversm/pni-ditchcarbon">on GitHub here</a>, but to adopt it for your own use you&rsquo;ll need to get an API key from Ditch Carbon.</p>
+<h2 id="findings">Findings</h2>
+<p>I spoke with Mozilla&rsquo;s sustainability lead, Jenny Wong, and she talked to me about lifecycle assessments. She said they can be incredibly expensive and so very few companies currently perform them for their products.</p>
+<p>Not surprisingly most of the products I ran through Ditch Carbon required using the supplier methodology so their accuracy is not as high as products who performed their own lifecycle assessments.</p>
+<p>As a result, generally, the more expensive the product the higher the carbon footprint using a spend method.</p>
+<p>Because I didn&rsquo;t pass the product category to Ditch Carbon, none of the products used the product category calculation method, however this data was available to me from Mozilla, so in the future I will try to include it, although Ditch Carbon didn&rsquo;t commonly find a matching category for what I passed through the API in my tests.</p>
+<p>I put the final data into Google Sheets to analyze things. While a number of the products I ran through Ditch Carbon we&rsquo;re not found, of the ones that were, the Kohler smart Tub (a hefty 4,600 kg CO2e) was almost five times higher than the next closest product - the Dyson Heurist Vacuum (926 kg CO2e). To put that into perspective, you could drive a car 11,418 miles to create the same emissions, and you&rsquo;d have to grow 76 tree seedlings for 10 years to offset that amount of CO2 (<a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator">source</a>)</p>
+<p>Only Google, Apple, and Lenovo published their own Life Cycle Assessments, and of those, the Apple iPad was highest at 133 kg CO2e.</p>
+<p>It is obviously problematic if only companies with deep pockets can publicize information about the environmental impacts of their products.</p>
+<p>Hopefully, in the future, we&rsquo;ll see more companies publishing their own Life Cycle Assessments so that consumers can make more informed decisions about the products they buy.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>
