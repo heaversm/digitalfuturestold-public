@@ -1,0 +1,84 @@
+
+#charts ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+#charts li {
+  margin-top: 10px;
+}
+
+
+#charts p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#charts h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+
+#charts details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+  font-size: 14px;
+  margin: 20px;
+
+}
+
+#charts summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+#charts details[open] {
+  padding: .5em;
+}
+
+#charts details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+#charts .bold {
+  font-weight: 500;
+}
+
+#charts .center {
+  text-align: center;
+}
+
+#charts canvas {
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.chart-sizer {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.chart-sizer.mw-80 {
+  max-width: 80%;
+}
+
+.chart-container h3, .chart-container h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.chart-description {
+  padding: 0 20px;
+  text-align: center;
+}
