@@ -6,9 +6,18 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Climate Numbers You Can Use.</title>
+      <title>Sustainable Travel Ain&#39;t Easy</title>
+      <link>/posts/foiled-attempt-to-travel-sustainably/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/foiled-attempt-to-travel-sustainably/</guid>
+      <description>After running the numbers on the flights to Hawaii for Mozilla&#39;s all-hands meeting, I resolved to make my next business trip by a more sustainable air-travel alternative. The opportunity came via a training in our San Francisco offices, just near enough to Portland to consider traveling by train, car, or bus. I knew flights from Portland to the bay were cheap, numerous and, most enticingly, fast. One hour and fifty minutes, one hundred and fifty bucks (with enough advance purchase and flexibility).</description>
+    </item>
+    
+    <item>
+      <title>Climate data for meaningful personal impact</title>
       <link>/posts/climate-numbers-you-can-use/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -50,7 +59,7 @@ Why Do We Need This? Flying is one of the most carbon intensive activities an in
     </item>
     
     <item>
-      <title>How it is</title>
+      <title>Cliff Notes - How it is</title>
       <link>/posts/how-it-is/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -84,7 +93,7 @@ GPT3 required an estimated 85,000 kg of CO2 to train.</description>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/posts/we-are-the-weather/</guid>
-      <description>After years of knowing the facts, but feeling paralyzed by inaction about climate change, I read a book by Jonathan Safran Foer called We are the Weather, which illucidated 3 easy personal actions we can all take toward saving the planet. If every human did this, we would singlehandedly meet the targets set in the targets for greenhouse gas emissions set forth in the Paris Agreement
+      <description>After years of knowing the facts, but feeling paralyzed by inaction about climate change, I read a book by Jonathan Safran Foer called We are the Weather, which highlights 3 easy personal actions we can all take toward saving the planet. If every human did this, we would singlehandedly meet the targets set in the targets for greenhouse gas emissions set forth in the Paris Agreement
 1. No meat before dinner Depending on how you do your accounting, animal agriculture accounts for 24 to &amp;gt;57% of greeenhouse gas emissions.</description>
     </item>
     
