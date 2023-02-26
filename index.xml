@@ -6,7 +6,18 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The need for repairability data in the move to greener electronics</title>
+      <link>/posts/electronics-repairability-dataset-generation/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/electronics-repairability-dataset-generation/</guid>
+      <description>tldr; I have begun compiling a list of repairability scores here from the French Indice de Repairabilité, and documented my process in this video.
+My plan going forward is to try and add the iFixIt scores, make the process of obtaining and keeping this database current more seamless, and working closer with other interested organizations to make this data more accessible.
+Let me know if this is useful or if you find other sources of data!</description>
+    </item>
+    
     <item>
       <title>Cliff Notes - What We Owe The Future</title>
       <link>/posts/cliff-notes-what-we-owe/</link>

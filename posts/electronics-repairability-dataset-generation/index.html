@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>The need for repairability data in the move to greener electronics - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/electronics-repairability-dataset-generation/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.3675ec53b35be0b7e588b0b9976f7223c732930a5bc047ff30591656428cc48e.css">
+  
+
+  
+    <meta name="description" content="Attempting to surface the repairability of phones, laptops, tablets, and TVs by scraping the iFixit and French Repairability Index websites"/>
+    <meta property="og:title" content="The need for repairability data in the move to greener electronics"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/electronics-repairability-dataset-generation/"/>
+    
+    <meta property="og:description" content="Attempting to surface the repairability of phones, laptops, tablets, and TVs by scraping the iFixit and French Repairability Index websites"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>The need for repairability data in the move to greener electronics<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h2 id="tldr">tldr;</h2>
+<p>I have begun compiling <a href="https://github.com/heaversm/electronics-repairability-scores">a list of repairability scores here</a> from the French Indice de Repairabilité, and documented my process in <a href="https://www.youtube.com/watch?v=BnJIcMfDQqc&amp;feature=youtu.be">this video</a>.</p>
+<p>My plan going forward is to try and add the iFixIt scores, make the process of obtaining and keeping this database current more seamless, and working closer with other interested organizations to make this data more accessible.</p>
+<p>Let me know if this is useful or if you find other sources of data!</p>
+<h2 id="the-greenest-device-you-can-own-is-the-one-you-already-have">The greenest device you can own is the one you already have</h2>
+<p>I previously wrote about <a href="https://digitalfuturestold.com/posts/pni-carbon/">disclosing the carbon footprint of electronics in Mozilla&rsquo;s Privacy Not Included Product Review</a>. The response I got, in part, was a criticism of the limitations and accuracy of calculating these products&rsquo; life cycle carbon metrics. A more important priority, many said, is to <strong>keep the devices we have in use as long as possible and out of the waste stream.</strong></p>
+<p>A key to that is manufacturers building products that are easy to repair, and consumers choosing products with better repairability instead of chasing the new new. But how do we know which products are repairable? And how do we know if that repairability is improving over time?</p>
+<h2 id="searching-for-repairability-data">Searching for Repairability Data</h2>
+<p>Finding repairability data isn&rsquo;t easy. I heard <a href="https://gimletmedia.com/shows/howtosaveaplanet/5whn325/why-is-it-so-hard-to-fix-our-electronics">a podcast episode with the founder of iFixIt on the Right to Repair Movement</a> (<em>How to Save a Planet</em>), in which they score each device they test on its repairability. The repairability for certain devices is available by category (<a href="https://www.ifixit.com/smartphone-repairability">here are the scores for smartphones</a>, for example), and while their process is extremely thorough and beautifully documented, these scores aren&rsquo;t easily extracted without a bit of searching, and are less comprehensive than I would&rsquo;ve hoped due to the thorough nature of each teardown and iFixIt&rsquo;s limited staff.</p>
+<p>I got in touch with iFixIt as to whether they have an API through which I could access these scores, and was put in touch with their Director of Sustainability, Elizabeth Chamberlain, who said that <a href="https://www.ifixit.com/api/2.0/doc">indeed they do</a>. Upon further examination though, the <a href="https://github.com/danielbeardsley/dozuki-guide-view">API hasn&rsquo;t been touched in about a decade</a>, and in an attempt to use it I encountered many technical hurdles.</p>
+<p>In trying to get past those hurdles, I found one ray of hope, a project by Manuel Hausserman, who was able to utilize iFixIt&rsquo;s full site search API to piece together a database of scores, and <a href="https://manuelhaeussermann.de/Repairability-Scores-Analysis/">documented his findings and trends nicely here</a>.</p>
+<h2 id="when-all-else-fails-scrape-it">When all else fails, scrape it</h2>
+<p>Meanwhile, an email to iFixIt pointed me in the direction of the only other comprehensive resource I could find, the <a href="https://www.indicereparabilite.fr/">French Repairability Index</a>. In France, manufacturers selling electronics are required to post their scores at the point of sale. The repair advocacy startup <a href="https://www.spareka.fr/">Spareka</a> has made a site collecting the scores. According to Elizabeth, &ldquo;We’re also partial to our scores because in France, manufacturers self-report, and the oversight is not particularly robust. Still, our team of a dozen technical writers can’t possibly take things apart and score them as fast as they come out, so the French score wins handily in breadth.&rdquo;</p>
+<p>While I certainly was looking for transparency and impartiality, I was also looking for a dataset that was as comprehensive as possible, and at the moment I was still hitting technical roadblocks with the iFixIt API, so I turned to Spareka and the French Repairability Index.</p>
+<p>This site also does not have an API, and to complicate matters, the scores for each product are embedded as images rather than readable text, and do not even include the score as alt text or an HTML data attribute - a real issue both for my project and for general accessibility reasons. At this point I might&rsquo;ve turned back to iFixIt, but my curiosity was piqued by the idea of using a computer vision API to extract the scores from the images, so I decided to press on.</p>
+<p>Where I might normally turn to a code-based headless browser implementation to scrape the data, I&rsquo;d recently seen a no-code scraper called <a href="https://bardeen.ai">Bardeen</a> nominated as a &ldquo;best-of&rdquo; app on Product Hunt, and thought I&rsquo;d give it a try in obtaining repairability scores.</p>
+<p>Bardeen was remarkably easy to set up (<a href="https://www.youtube.com/watch?v=BnJIcMfDQqc">I&rsquo;ve documented the process here</a>) - it was a simple matter of clicking the score image within a list of items that I wanted to extract, clicking the comparable image in the subsequent list item, and telling Bardeen how to advance to subsequent pages of list items to be able to parse all the items. Bardeen has a number of options you can choose from as far as what to do with the data - I decided to log it to a <a href="https://docs.google.com/spreadsheets/d/1ZMOe5CCLjBTWuiOnP9nE8g-6txdh79Atkwqhzc9sp7A/edit#gid=0">Google Sheet</a> so that it might be easier to append to, make visible to others, and export in a variety of formats.</p>
+<p>Bardeen didn&rsquo;t achieve perfect success - a fact I&rsquo;m not sure whether to attribute to the scraper itself, or the index&rsquo;s sometimes unpredictable DOM structure, but eventually I had a list of just under 1000 devices with logged with their images. The problem now, however, was how to turn those score images into numerical data. For this I turned to the <a href="https://cloud.google.com/vision">Google Cloud Vision API</a>.</p>
+<p>I was anticipating quite a bit of headache in setting up the API, and to some extent navigating the overwhelming interface and access of controls in GCP proved challenging, but once I had enabled access and billing, actually using the API was a breeze.</p>
+<p>The Cloud Vision API analyzes an image, searching for text, and returns an array of all of the different textual components it finds. In my case, this was very predictably the first element the array, and there were only a handful of misinterpreted scores. I came up with a quick and dirty method of getting those scores back into the spreadsheet (with more time I&rsquo;d have loved to make the whole thing one seamless process). The result is the start of <a href="https://github.com/heaversm/electronics-repairability-scores">a data set that anyone can access for repairability data</a>.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>There are a few key things I&rsquo;d like to accomplish going forward:</p>
+<ul>
+<li>Add the iFixIt scores</li>
+<li>Create a more seamless approach toward obtaining all of this data and keeping it up to date as new devices are added</li>
+<li>Working with groups like the Repair Association, Spareka, and iFixIt to make this data more accessible and useful.</li>
+</ul>
+<p>During the time I was constructing the list of repairability scores from Spareka, I reached out to Manuel Hausserman and asked him to share his code and <a href="https://github.com/mhaeussermann/repairability_scores">he generously made it available here</a>.</p>
+<p>I plan to revisit iFixIt using Manuel&rsquo;s code, and cross reference the scores with my current database, adding unreported devices where possible and listing from which source the scores are derived. Should I hit any roadblocks there, I may use the scraping approach here as well.</p>
+<p>I also plan to get back in touch with iFixIt on the status of their API, to see if they might be willing to make any headway in updating things, and how I might help.</p>
+<p>One last avenue of exploration is <a href="https://repair.org">The Repair Association</a>, the heart of the right to repair movement in the US. The Repair Association works in Policy Advocacy and provides news about the movement as well as resources for where to repair. Their Executive Director, Gabriel Gordon-Byrne, said that &ldquo;It&rsquo;s been hard to get data from OEMS so information is based on physical tear-downs,&rdquo; but indicated that &ldquo;a directory of repairability scores would be tremendous.&rdquo; It could be interesting to see how the Repair Association or its members could contribute to these efforts.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://github.com/heaversm/electronics-repairability-scores">Repairability Scores Dataset and Codebase</a></li>
+<li><a href="https://www.indicereparabilite.fr/">French Repairability Index</a></li>
+<li><a href="https://www.ifixit.com/">iFixit</a></li>
+<li><a href="https://www.ifixit.com/api/2.0/doc">iFixit API</a></li>
+<li><a href="https://github.com/mhaeussermann/repairability_scores">Manuel Hausserman Codebase to Scrape iFixit</a>, <a href="https://manuelhaeussermann.de/Repairability-Scores-Analysis/">Blog Post</a></li>
+<li><a href="https://cloud.google.com/vision">Microsoft Cloud Vision API</a></li>
+<li><a href="https://www.repair.org/">The Repair Assocation</a></li>
+</ul>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>
