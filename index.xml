@@ -6,7 +6,17 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Your Future of Food</title>
+      <link>/posts/future-of-food/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/future-of-food/</guid>
+      <description>Imagining a Better Food System I recently enrolled in Terra.do&amp;rsquo;s Climate Farm School course, and one of our assignments was to picture the food system in 2040. In the process of thinking through what this might look like for myself, I thought I&amp;rsquo;d build a tool to help others do the same.
+Using chatGPT4&amp;rsquo;s ability to create both textual completions and images, I set up a brief mad lib style questionnaire.</description>
+    </item>
+    
     <item>
       <title>The Seer &amp; the Supersensorium</title>
       <link>/posts/exit-the-supersensorium/</link>
