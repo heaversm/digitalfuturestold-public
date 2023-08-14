@@ -6,7 +6,17 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Sustainability First Steps</title>
+      <link>/posts/ai-sustainability-first-steps/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ai-sustainability-first-steps/</guid>
+      <description>As the Innovation Studio team at Mozilla has been ramping up its investigation into responsible AI, it&amp;rsquo;s become clear that we need to consider the environmental impact of the tools we build. I was asked to put together a quick primer on initial considerations.
+Why prioritize sustainability in AI AI Model Training utilizes cloud GPUs that require 10–15 times the energy a traditional CPU (source) Training an LLM such as GPT-4 is estimated to take up to 300 tons of CO2e (source) NVIDIA estimates that 80-90% of the energy cost of neural networks lies in ongoing inference processing after a model has been trained (source).</description>
+    </item>
+    
     <item>
       <title>Climate Farm School</title>
       <link>/posts/climate-farm-school/</link>

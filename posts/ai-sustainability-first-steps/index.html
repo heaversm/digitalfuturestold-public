@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AI Sustainability First Steps - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/ai-sustainability-first-steps/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.c90ef98d946673032f1d725f3f552f2dab24d66b145f96613fabd4198ae0ec1f.css">
+  
+
+  
+    <meta name="description" content="Where to start on building efficient AI applications"/>
+    <meta property="og:title" content="AI Sustainability First Steps"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/ai-sustainability-first-steps/"/>
+    
+    <meta property="og:description" content="Where to start on building efficient AI applications"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>AI Sustainability First Steps<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><img src="/images/posts/2023-08-14-ai.jpg" alt="AI-sustainability slide deck"></p>
+<p>As the Innovation Studio team at Mozilla has been ramping up its investigation into responsible AI, it&rsquo;s become clear that we need to consider the environmental impact of the tools we build. I was asked to put together a quick primer on initial considerations.</p>
+<h2 id="why-prioritize-sustainability-in-ai">Why prioritize sustainability in AI</h2>
+<ul>
+<li>AI Model Training utilizes cloud GPUs that require 10–15 times the energy a traditional CPU (<a href="https://hbr.org/2023/07/how-to-make-generative-ai-greener">source</a>)</li>
+<li>Training an LLM such as GPT-4 is estimated to take up to 300 tons of CO2e (<a href="https://dl.acm.org/doi/10.1145/3442188.3445922">source</a>)</li>
+<li>NVIDIA estimates that 80-90% of the energy cost of neural networks lies in ongoing inference processing after a model has been trained (<a href="https://www.forbes.com/sites/moorinsights/2019/05/09/google-cloud-doubles-down-on-nvidia-gpus-for-inference/?sh=2d73f4d46792">source</a>).</li>
+<li>A single request in ChatGPT can consume 100 times more energy than one Google search (<a href="https://www.thedigitalspeaker.com/greener-future-importance-sustainable-ai">source</a>)</li>
+<li>70% of the energy used by a typical laptop computer is incurred during its manufacture. Desktops even higher (<a href="https://www.networkworld.com/article/2229029/computer-factories-eat-way-more-energy-than-running-the-devices-they-build.html">source</a>)</li>
+<li>The difference in CO2e powering the infrastructure behind AI systems can vary wildly (<a href="https://www.electricitymap.org/">as much as 30x</a>)</li>
+</ul>
+<h2 id="where-to-optimize">Where to Optimize</h2>
+<ul>
+<li>Model Training</li>
+<li>Inference (prediction using new input data)</li>
+<li>Hardware Life Cycle Assessment and cloud data center energy usage</li>
+</ul>
+<h2 id="how-to-optimize">How to Optimize</h2>
+<ul>
+<li>Use existing large generative models, don’t generate your own.</li>
+<li>Fine-tune train existing models or use embeddings.</li>
+<li>Employ the minimum sized model necessary for your AI task
+<ul>
+<li>pruning</li>
+<li>compression</li>
+<li>distillation</li>
+<li>quantization</li>
+</ul>
+</li>
+<li>Use web search &amp; non-ML APIs / algorithms</li>
+<li>Optimize infrastructure (<a href="https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html">source</a>)
+<ul>
+<li>On cloud vs local (1.4-2x reduction cloud vs. local)</li>
+<li>in regions running on clean energy (5-10x reduction)</li>
+<li>utilizing optimized hardware (2-5X reduction)</li>
+<li>maximizing utilization</li>
+</ul>
+</li>
+<li>Cache results of repeat tasks used in dev / testing,</li>
+<li>(e.g. generating a stock translation or LLM response)</li>
+<li>Include AI in your carbon monitoring, and adjust as necessary</li>
+<li>Make carbon impacts a core consideration alongside functional and business requirements</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/Breakend/experiment-impact-tracker">Experiment Impact Tracker</a> | Code Carbon
+code-based package to track energy usage of code (<em>backend)</em></li>
+<li><a href="https://github.com/thegreenwebfoundation/co2.js/">CO2.js</a> code based packages to estimate energy use (<em>frontend</em>)</li>
+<li><a href="https://greensoftwarefoundation.atlassian.net/wiki/spaces/~612dd45e45cd76006a84071a/pages/17137665/Opensource+Carbon+Aware+SDK">Carbon Aware SDK</a> - utilize to optimize timing of energy intensive tasks</li>
+<li><a href="https://mlco2.github.io/impact/#compute">ML CO2 Impact Estimator</a> - Quick web tool for calculating training CO2
+based on GPU / hours / provider / region</li>
+<li><a href="https://ecoping.earth/">EcoPing</a> - Utilizes lighthouse and other metrics to measure changes in energy consumption of your site over time</li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<ul>
+<li>Checklist: Establish a checklist for AI sustainability that is utilized in all product codebases.</li>
+<li>Conduct: audit against checklist before launch with a pass / fail criteria and recommendations for improvement</li>
+<li>Code: Create an code energy monitoring guide and relevant infrastructure.</li>
+<li>Cloud: Ensure cloud infrastructure for ML ops is being measured and optimization recommendations are being surfaced to relevant stakeholders / projects</li>
+<li>Catalog: Up-to-date AI sustainability best-practices in a company-wide repository.</li>
+<li>Coach: new members / teams on best-practices as they evolve.</li>
+</ul>
+<h2 id="research">Research</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2209.02198">Carbon-Neutralized Task Scheduling for Green Computing Networks</a></li>
+<li><a href="https://arxiv.org/pdf/1906.05433.pdf">Tackling Climate Change with Machine Learning</a> - ways AI could help</li>
+<li><a href="https://arxiv.org/abs/1906.02243">Energy Considerations for NLP</a> - Performs carbon calculations of model training</li>
+<li><a href="https://www.youtube.com/watch?v=Y0XGSnRrWiU&amp;ab_channel=TEDxTalks">Energy-Efficient AI</a> - TedX talk on Youtube</li>
+<li><a href="https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html">Good News About the Carbon Footprint of Machine Learning Training</a></li>
+<li><a href="https://arxiv.org/abs/1910.09700">Quantifying the Carbon Emissions of Machine Learning</a></li>
+<li><a href="https://thegradient.pub/sustainable-ai/">The Imperative for Sustainable AI Systems</a></li>
+<li><a href="https://arxiv.org/abs/2110.11822">Unraveling the hidden environmental impacts of AI solutions for environment</a></li>
+</ul>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>
