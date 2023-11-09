@@ -6,207 +6,177 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cliff Notes - Ways of Being</title>
+      <link>/posts/ways-of-being/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/posts/ways-of-being/</guid>
+      <description>James Bridle posits that the natural world should play an essential part of our technological future, a role that is currently being overwhelmingly ignored.
+‘We are now living in a global state that has been structured for the benefit of non-human entities with non-human goals.
+Ways of Being spends its time examining human and non-human technology, their inseparable codependence, and how &amp;ldquo;an ecology of technology&amp;rdquo; is essential to our long-term survival as a species.</description>
+    </item>
     <item>
       <title>We choose the speed at which we live.</title>
       <link>/posts/speed-of-life/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/speed-of-life/</guid>
       <description>I&amp;rsquo;ve been thinking a lot about the senses, and about how much our culture favors the visual one. As a result a lot of my experiments of late delve into the auditory realm. In reading Jame&amp;rsquo;s Bridle&amp;rsquo;s &amp;ldquo;Ways of Being&amp;rdquo;, though, I began to wonder about another sense we might possess, which is attunement to change through the passage of time.
 This is the concept of Phenology - the study of not how things appear, but when.</description>
     </item>
-    
     <item>
       <title>Understand openAI energy use and cost</title>
       <link>/posts/ai-energy-usage-and-cost/</link>
       <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/ai-energy-usage-and-cost/</guid>
       <description>Using OpenAI&amp;rsquo;s APIs is an easy way to get up and running with building AI driven applications, but what will these services cost you, and what are the implications in terms of energy usage and efficiency versus other non-AI driven options? How do you isolate the cost and energy of a specific user interaction with AI?
 In this video, we&amp;rsquo;ll use the Firefox Energy Profiler to understand the energy usage of AI inference with OpenAI&amp;rsquo;s API, utilizing both the Whisper Transcription API, and ChatGPT 3.</description>
     </item>
-    
     <item>
       <title>AI Sustainability First Steps</title>
       <link>/posts/ai-sustainability-first-steps/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/ai-sustainability-first-steps/</guid>
       <description>As the Innovation Studio team at Mozilla has been ramping up its investigation into responsible AI, it&amp;rsquo;s become clear that we need to consider the environmental impact of the tools we build. I was asked to put together a quick primer on initial considerations.
 Why prioritize sustainability in AI AI Model Training utilizes cloud GPUs that require 10–15 times the energy a traditional CPU (source) Training an LLM such as GPT-4 is estimated to take up to 300 tons of CO2e (source) NVIDIA estimates that 80-90% of the energy cost of neural networks lies in ongoing inference processing after a model has been trained (source).</description>
     </item>
-    
     <item>
       <title>Climate Farm School</title>
       <link>/posts/climate-farm-school/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/climate-farm-school/</guid>
       <description>&amp;ldquo;A chorus of living wood sings to the woman, ‘if your mind were only a slightly greener thing, we’d drown you in meaning’.” - The Overstory, Richard Powers
 I recently attended Terra.do&amp;rsquo;s Climate Farm School, which asks attendees to examine innovation in our food systems in the wake of climate change. The experience was so positive and essential to my understanding of what we eat and how it contributes to the health of our planet, that I started to wonder whether such a course might not be a requirement of all people who wish to grow food, or eat the food grown by others.</description>
     </item>
-    
     <item>
       <title>Highlights from the State of Green Software</title>
       <link>/posts/state-of-green-software-2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/state-of-green-software-2023/</guid>
       <description>I recently read the findings from the Green Software Foundation&amp;rsquo;s State of Green Software Report, which brings to light some interesting gaps, opportunities, trends, and the growing need for Green Software practices and solutions.
 Here are a summary of my highlights.
 Business Case for Green Software: Growing Market: The green software services market was valued at $12.46 billion. Forecasted to reach $34.83 billion by 2030. Pitchbook expects climate tech jobs to be a $1.</description>
     </item>
-    
     <item>
       <title>Where do you start? Create a Climate Action Venn Diagram</title>
       <link>/posts/climate-venn/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/climate-venn/</guid>
       <description>Creating My Climate Action Venn Diagram Some time ago I listened to an excellent episode of How to Save a Planet, where Dr. Ayana Elizabeth Johnson discussed her Climate Action Venn Diagram, a very simple tool designed to answer the oft-fielded question, &amp;ldquo;I want to help address the climate crisis - where do I start?&amp;rdquo;.
 I finally decided to make my own, which revealed a few interesting things to me (physicality, martyrdom, human connection), and clarified others.</description>
     </item>
-    
     <item>
       <title>Create Your Future of Food</title>
       <link>/posts/future-of-food/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/future-of-food/</guid>
       <description>Imagining a Better Food System I recently enrolled in Terra.do&amp;rsquo;s Climate Farm School course, and one of our assignments was to picture the food system in 2040. In the process of thinking through what this might look like for myself, I thought I&amp;rsquo;d build a tool to help others do the same.
 Using chatGPT4&amp;rsquo;s ability to create both textual completions and images, I set up a brief mad lib style questionnaire.</description>
     </item>
-    
     <item>
       <title>The Seer &amp; the Supersensorium</title>
       <link>/posts/exit-the-supersensorium/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/exit-the-supersensorium/</guid>
       <description>The Past: Latent Space When I first started learning AI, I was fascinated by this thing called “The Latent Space” - a way of essentially opening up a an AI’s brain in training to see what it imagines as it attempts to make sense of the Human World.
 I loved the weird imperfection and unexpected surprises. I thought this would be an amazing tool in the hands of an artist - but the technical barriers were high.</description>
     </item>
-    
     <item>
       <title>The need for repairability data in the move to greener electronics</title>
       <link>/posts/electronics-repairability-dataset-generation/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/electronics-repairability-dataset-generation/</guid>
       <description>tldr; I have begun compiling a list of repairability scores here from the French Indice de Repairabilité, and documented my process in this video.
 My plan going forward is to try and add the iFixIt scores, make the process of obtaining and keeping this database current more seamless, and working closer with other interested organizations to make this data more accessible.
 Let me know if this is useful or if you find other sources of data!</description>
     </item>
-    
     <item>
       <title>Cliff Notes - What We Owe The Future</title>
       <link>/posts/cliff-notes-what-we-owe/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/cliff-notes-what-we-owe/</guid>
       <description>In a pre- Sam Bankman Fried past longtermism held more intrigue for me. I&amp;rsquo;ve since developed an aversion to an ideology that places the preservation of human life at the forefront of all environmental decision making. Nevertheless, I am intrigued by the thought of always keeping &amp;ldquo;the most good for the most amount of people&amp;rdquo; at the forefront of decisionmaking, as well as longtermism&amp;rsquo;s efforts to evaluate the likelihood of various environmental futures.</description>
     </item>
-    
     <item>
       <title>Sustainable Travel Ain&#39;t Easy</title>
       <link>/posts/foiled-attempt-to-travel-sustainably/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/foiled-attempt-to-travel-sustainably/</guid>
       <description>After running the numbers on the flights to Hawaii for Mozilla&#39;s all-hands meeting, I resolved to make my next business trip by a more sustainable air-travel alternative. The opportunity came via a training in our San Francisco offices, just near enough to Portland to consider traveling by train, car, or bus. I knew flights from Portland to the bay were cheap, numerous and, most enticingly, fast. One hour and fifty minutes, one hundred and fifty bucks (with enough advance purchase and flexibility).</description>
     </item>
-    
     <item>
       <title>Climate data for meaningful personal impact</title>
       <link>/posts/climate-numbers-you-can-use/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/climate-numbers-you-can-use/</guid>
       <description>It&#39;s getting hot in here... The best indicator we have for the severity of our myriad environmental issues is the temperature of our planet. And it&#39;s getting hotter everywhere, as seen below in this graph of global temperature anomalies. While a few degrees might not seem like a lot, even 2 degrees change would equate to about 15 feet of sea level rise. The level of CO2 in our atmosphere makes this problem worse - locking that heat in to our atmosphere for thousands of years, despite improvements we may make on carbon reduction.</description>
     </item>
-    
     <item>
       <title>Top Environmental Highlights of 2022</title>
       <link>/posts/environment-highlights-2022/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/environment-highlights-2022/</guid>
       <description>At some point this past year I started highlighting key takeaways in my climate research. Here I&amp;rsquo;ve synthesized some of the top facts and figures that stood out in 2022
 Climate Change We need to be making more progress faster:
 Of the 40 indicators of global warming-limiting measures of progress established by the Intergovernmental Panel on Climate Change, none are on track to reach their 2030 targets. Six are heading in the right direction at a promising but insufficient speed, while 21 are also trending in the right direction but well below the required pace.</description>
     </item>
-    
     <item>
       <title>Calculating Product Carbon Emissions with Ditch Carbon</title>
       <link>/posts/pni-carbon/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/pni-carbon/</guid>
       <description>Youtube Video Walkthrough
 Every Year Mozilla conducts its Privacy Not Included product review - evaluating products on their level of Privacy, Security, and use of AI.
 I wanted to see if next year we can include the energy usage or carbon footprint of these products in the review. So I decided to build a carbon footprint calculator for the products in this year&amp;rsquo;s privacy not included review as a prototype in order to hopefully persuade the team to include it next year.</description>
     </item>
-    
     <item>
       <title>A Carbon Calculator for Company Travel</title>
       <link>/posts/multi-flight-carbon-calculator/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/multi-flight-carbon-calculator/</guid>
       <description>Try it out here
 My company hosted its annual off-site trip for all 1000+ employees in Hawaii. In the process of trying to estimate and understand the implications of this on the environment, I built a tool that estimates the carbon for multiple people traveling to a single destination.
 Why Do We Need This? Flying is one of the most carbon intensive activities an individual can do. A single flight emits more CO2 than a single person in Uganda does in a year.</description>
     </item>
-    
     <item>
       <title>Cliff Notes - How it is</title>
       <link>/posts/how-it-is/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/how-it-is/</guid>
       <description>I believe that taking meaningful restorative action for the planet starts with changing our culture, and that culture change requires an understanding of other ways of being. In my own search for alternatives, I read &amp;ldquo;How It Is&amp;rdquo;, by Viola Cordova - a Jicarilla Apache / Hispanic professor of classical Western &amp;amp; Native American philosophy. In Viola&amp;rsquo;s words, &amp;ldquo;I study white people.&amp;rdquo; The book helped me see blindspots in my own world view, as well as insights into a belief system that might make that culture shift possible.</description>
     </item>
-    
     <item>
       <title>What if I didn&#39;t take that all-expenses paid trip?</title>
       <link>/posts/what-if-i-didnt-fly/</link>
       <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/what-if-i-didnt-fly/</guid>
       <description>I love to travel. In fact, for the last 25 years I had made it a goal to visit at least one new country a year, because to me, travel felt like the marker of a life fully lived. So when, after 2 years of pandemic isolation, my company resumed its annual all-company offsite meeting in Hawaii, I should have been ecstatic. It was after all not just travel, but free travel.</description>
     </item>
-    
     <item>
       <title>AI Tradeoffs</title>
       <link>/posts/ai-tradeoffs/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/ai-tradeoffs/</guid>
       <description>In October I gave a quick (5 minute) lightning talk at Mozilla about the environmental impact of using AI vs. the potential environmental benefits. In the talk I make a Deep Fake of myself and estimate the energy usage in creating it.
 You can watch the video at the link above, but here&amp;rsquo;s a summary of things I learned in the process:
 GPT3 required an estimated 85,000 kg of CO2 to train.</description>
     </item>
-    
     <item>
       <title>We Are the Weather</title>
       <link>/posts/we-are-the-weather/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/we-are-the-weather/</guid>
       <description>After years of knowing the facts, but feeling paralyzed by inaction about climate change, I read a book by Jonathan Safran Foer called We are the Weather, which highlights 3 easy personal actions we can all take toward saving the planet. If every human did this, we would singlehandedly meet the targets set in the targets for greenhouse gas emissions set forth in the Paris Agreement
 1. No meat before dinner Depending on how you do your accounting, animal agriculture accounts for 24 to &amp;gt;57% of greeenhouse gas emissions.</description>
     </item>
-    
     <item>
       <title>About Me</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/about/</guid>
       <description>Exploring solutions in tech, climate, and culture I’m a Design Technologist in Mozilla&amp;rsquo;s Innovation Organization, focused on humans’ relationship to technology and the natural world. My goal is to contribute to impactful solutions that address the climate crisis in ways that foster a healthier relationship between our devices, our surroundings, and each other. This site serves as a way to document and share that progress with others.
 While this blog represents the key things I&amp;rsquo;m focused on right now, you can find my portfolio website at mikeheavers.</description>
     </item>
-    
   </channel>
 </rss>
