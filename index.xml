@@ -6,8 +6,16 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keeping the (idiosyncratic) human in the technological loop</title>
+      <link>/posts/human-in-the-loop/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/human-in-the-loop/</guid>
+      <description>I spend a lot of my time at Mozilla these days building prototypes that incorporate some aspect of artificial intelligence and, subsequently, inescapably, considering the impact of such developments on humans. My thoughts often wander, unsurprisingly, to my own future as a developer and reluctant tech user.
+There has been plenty written about how AI will replace or shift jobs, and my own career as a mid-level designer / dev hybrid is certainly far from safe.</description>
+    </item>
     <item>
       <title>Cliff Notes - Ways of Being</title>
       <link>/posts/ways-of-being/</link>
