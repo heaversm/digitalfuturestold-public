@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Can AI learn cultural transmission? - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/cultural-transmission/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.c90ef98d946673032f1d725f3f552f2dab24d66b145f96613fabd4198ae0ec1f.css">
+  
+
+  
+    <meta name="description" content="Cultural transmission is arguably the fastest human intelligence generating process. Can AI learn it?"/>
+    <meta property="og:title" content="Can AI learn cultural transmission?"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/cultural-transmission/"/>
+    
+    <meta property="og:description" content="Cultural transmission is arguably the fastest human intelligence generating process. Can AI learn it?"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Can AI learn cultural transmission?<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>Human intelligence is especially dependent on our ability to acquire knowledge efficiently from other humans (culture). Can AI learn to teach itself through cultural transmission?</p>
+<h3 id="the-research">The Research</h3>
+<p><a href="https://www.nature.com/articles/s41467-023-42875-2">In a paper published in nature</a> researchers from DeepMind posited that, &ldquo;since cultural transmission is an ever-present feature of human social behaviour,&rdquo; and since it &ldquo;is the process that underlies the evolution of culture&rdquo;, it &ldquo;is a skill that an artificially intelligent agent should possess to facilitate beneficial human-AI interaction.&rdquo;</p>
+<p>One important element of cultural transmission is imitation. &ldquo;In humans, imitation provides the kind of high-fidelity cultural transmission needed for the cultural evolution of tools and technology.&rdquo;</p>
+<h3 id="imitation-of-movement">Imitation of Movement</h3>
+<p>The researchers chose an interesting case study for cultural imitation - the copying of body movement (e.g. jumping, crouching, navigating obstacles). &ldquo;It is a particularly impressive form of cultural transmission&rdquo;, say the researchers, &ldquo;because it requires solving the challenging &lsquo;correspondence problem - instantaneously translating a sensory observation of another [expert&rsquo;s] motor behaviour into a motor reproduction of that behaviour oneself.&rdquo;</p>
+<p>In order to study body movement as a method of cultural imitation, the researchers needed to create an environment in which an AI agent (which they dubbed <em>MEDAL</em>) and environment could co-adapt, through reinforcement learning. They did so with a simulation in <a href="">Unity</a> called &ldquo;Goal Cycle 3D&rdquo;. The agents observed the 3D world using <a href="">LIDAR</a></p>
+<p>Unity, a software typically used for creating 3D games, was ideal, in that the researchers could leverage its capability for procedural generation, rigid-body physics, and motor control, to provide &ldquo;a rich diversity of task variants&rdquo; for <a href="">reinforcement learning</a>.</p>
+<p><img src="/images/posts/2023-12-11-goalcycle.jpg" alt="GoalCycle3D 3D Learning Environment"></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/rrEfLEsNF9Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In the environment, hard-coded &ldquo;demonstration&rdquo; bots drop in and out of the simulation to be observed by agents during training, allowing the AI agents to learn to observe and then imitate when the demonstrator is absent. Success is determined by the agent&rsquo;s ability to improve performance.</p>
+<h3 id="the-results">The results</h3>
+<blockquote>
+<p>&ldquo;We find that [AI] agents recall demonstrations long after the expert has departed. Introspecting the agent’s “brain”, we find strikingly interpretable neurons responsible for encoding social information. MEDAL displays an “experimentation” behaviour in this phase, which involves using hypothesis-testing to infer the correct cycle without reference to the bot, followed by exploiting that correct cycle more efficiently than the bot does.&rdquo;</p>
+</blockquote>
+<p>In other words, the student learned to outperform the teacher.</p>
+<h3 id="social-neurons">Social Neurons</h3>
+<p>At the time of writing, AI is widely still considered a &ldquo;black box&rdquo; for its lack of interpretability into why it makes the decisions it does. So what&rsquo;s fascinating to me about this research (to the extent that I understand research paper speak) is that they claim to have found individual neurons in the network responsible for identifying agency, which they call the &ldquo;social neuron.&rdquo;</p>
+<p>Perhaps just as interesting to note is the fact that it is simply being present in the learning environment, not being in the presence of the &ldquo;teacher&rdquo; or receiving a reward, which causes that neuron to fire.</p>
+<p>In reading this I find myself having to fight not to overgeneralize to the realm of human beings, but I can&rsquo;t help but wonder - what elements are most crucial in human learning? The teacher? The goal of getting good grades? Or could it be just simply being in the classroom?</p>
+<h3 id="what-else-was-learned">What else was learned?</h3>
+<ul>
+<li>
+<p>Teachers got attached to students (or teaching?) - &ldquo;The progressive increase in duration of expert dropout (ED) mirrors the development of secure attachment in humans.&rdquo;</p>
+</li>
+<li>
+<p>Humans&rsquo; bias to biological movement corresponds to their loss of attention (<em>Inversion effect in newborns’ sensitivity to biological motion, Bardi, Regolin, Simolin, Dev. Pyschol.</em>)</p>
+</li>
+</ul>
+<h3 id="yet-to-explore">Yet to explore</h3>
+<ul>
+<li>
+<p>Incorporating multiple teachers / teaching styles, vs. just a single individual.</p>
+</li>
+<li>
+<p>Greater depth and breadth of strategic tasks</p>
+</li>
+<li>
+<p>Experiment with agents learning cultural capabilities from scratch, vs. from a preprogrammed expert. Humans imitate over abstract representations of the task at hand, including beliefs, desires and intentions. &ldquo;We would expect this approach to generate efficient open-ended learning.&rdquo;</p>
+</li>
+</ul>
+<h3 id="can-ai-teach-itself">Can AI teach itself?</h3>
+<p>What would happen if AI began imitating other AI? Could it solve significant real problems? And perhaps more importantly, what is the human cost?</p>
+<h3 id="other-resources">Other Resources</h3>
+<p>While the actual code is proprietary, the authors have made several code repos available:</p>
+<p><a href="https://github.com/google-deepmind/acme/tree/master/acme/agents/jax/mpo">Open Source MPO Algorithm</a></p>
+<p><a href="https://github.com/kandouss/marlgrid/blob/master/marlgrid/envs/goalcycle.py">Open Source Implementation of the 2D Variant of Goal Cycle</a></p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

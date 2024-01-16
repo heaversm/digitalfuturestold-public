@@ -9,12 +9,20 @@
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Keeping the (idiosyncratic) human in the technological loop</title>
+      <title>Keeping the (idiosyncratic) human in the loop</title>
       <link>/posts/human-in-the-loop/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/posts/human-in-the-loop/</guid>
       <description>I spend a lot of my time at Mozilla these days building prototypes that incorporate some aspect of artificial intelligence and, subsequently, inescapably, considering the impact of such developments on humans. My thoughts often wander, unsurprisingly, to my own future as a developer and reluctant tech user.
 There has been plenty written about how AI will replace or shift jobs, and my own career as a mid-level designer / dev hybrid is certainly far from safe.</description>
+    </item>
+    <item>
+      <title>Can AI learn cultural transmission?</title>
+      <link>/posts/cultural-transmission/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/posts/cultural-transmission/</guid>
+      <description>Human intelligence is especially dependent on our ability to acquire knowledge efficiently from other humans (culture). Can AI learn to teach itself through cultural transmission?
+The Research In a paper published in nature researchers from DeepMind posited that, &amp;ldquo;since cultural transmission is an ever-present feature of human social behaviour,&amp;rdquo; and since it &amp;ldquo;is the process that underlies the evolution of culture&amp;rdquo;, it &amp;ldquo;is a skill that an artificially intelligent agent should possess to facilitate beneficial human-AI interaction.</description>
     </item>
     <item>
       <title>Cliff Notes - Ways of Being</title>
