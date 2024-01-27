@@ -6,8 +6,15 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General Intelligence is not Human Intelligence</title>
+      <link>/posts/agi-is-not-human-intelligence/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/agi-is-not-human-intelligence/</guid>
+      <description>Work in tech and you&amp;rsquo;ll hear a lot about Artificial General Intelligence (AGI) these days. You know the story - our rapid advancements in Artificial Intelligence will soon produce a computer whose thinking is on par with the human brain. The tantalizing logic leap is that general intelligence means human intelligence means we&amp;rsquo;re all replaceable, or worse, under existential threat. And the presumption is that the source of our unseating is the Large Language Model (LLM).</description>
+    </item>
     <item>
       <title>Keeping the (idiosyncratic) human in the loop</title>
       <link>/posts/human-in-the-loop/</link>
