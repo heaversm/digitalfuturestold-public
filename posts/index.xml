@@ -9,7 +9,15 @@
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General Intelligence is not Human Intelligence</title>
+      <title>Cliff Notes - Where the Water Goes 💧</title>
+      <link>/posts/where-the-water-goes/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/where-the-water-goes/</guid>
+      <description>In &amp;ldquo;Where the Water Goes&amp;rdquo; author David Owen follows the Colorado River from its high-altitude headwaters to its eventual, trickling desert end - every drop over-promised, underdelivered, or disputed along the way. The system now has an average “structural deficit” of 1.2 million acre-feet a year, &amp;ldquo;which is equivalent to covering almost four Phoenixes with a foot of water&amp;rdquo; (source).
+What to do? There&amp;rsquo;s no shortage of attempted solutions. The thing that struck me while reading this book though, was how often some unforeseen downstream circumstance counteracts a seemingly intuitive water management practice.</description>
+    </item>
+    <item>
+      <title>General Intelligence is not Human Intelligence 🧠</title>
       <link>/posts/agi-is-not-human-intelligence/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/posts/agi-is-not-human-intelligence/</guid>
@@ -24,7 +32,7 @@
 There has been plenty written about how AI will replace or shift jobs, and my own career as a mid-level designer / dev hybrid is certainly far from safe.</description>
     </item>
     <item>
-      <title>Can AI learn cultural transmission?</title>
+      <title>Can AI learn cultural transmission? 💬</title>
       <link>/posts/cultural-transmission/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       <guid>/posts/cultural-transmission/</guid>
@@ -32,7 +40,7 @@ There has been plenty written about how AI will replace or shift jobs, and my ow
 The Research In a paper published in nature researchers from DeepMind posited that, &amp;ldquo;since cultural transmission is an ever-present feature of human social behaviour,&amp;rdquo; and since it &amp;ldquo;is the process that underlies the evolution of culture&amp;rdquo;, it &amp;ldquo;is a skill that an artificially intelligent agent should possess to facilitate beneficial human-AI interaction.</description>
     </item>
     <item>
-      <title>Cliff Notes - Ways of Being</title>
+      <title>Cliff Notes - Ways of Being 🌲</title>
       <link>/posts/ways-of-being/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       <guid>/posts/ways-of-being/</guid>
@@ -41,7 +49,7 @@ The Research In a paper published in nature researchers from DeepMind posited th
 Ways of Being spends its time examining human and non-human technology, their inseparable codependence, and how &amp;ldquo;an ecology of technology&amp;rdquo; is essential to our long-term survival as a species.</description>
     </item>
     <item>
-      <title>We choose the speed at which we live.</title>
+      <title>We choose the speed at which we live. ⏳</title>
       <link>/posts/speed-of-life/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/posts/speed-of-life/</guid>
@@ -49,7 +57,7 @@ Ways of Being spends its time examining human and non-human technology, their in
 This is the concept of Phenology - the study of not how things appear, but when.</description>
     </item>
     <item>
-      <title>Understand openAI energy use and cost</title>
+      <title>Understand openAI energy use and cost ⚡</title>
       <link>/posts/ai-energy-usage-and-cost/</link>
       <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
       <guid>/posts/ai-energy-usage-and-cost/</guid>
@@ -65,7 +73,7 @@ In this video, we&amp;rsquo;ll use the Firefox Energy Profiler to understand the
 Why prioritize sustainability in AI AI Model Training utilizes cloud GPUs that require 10–15 times the energy a traditional CPU (source) Training an LLM such as GPT-4 is estimated to take up to 300 tons of CO2e (source) NVIDIA estimates that 80-90% of the energy cost of neural networks lies in ongoing inference processing after a model has been trained (source).</description>
     </item>
     <item>
-      <title>Climate Farm School</title>
+      <title>Climate Farm School 👩‍🌾</title>
       <link>/posts/climate-farm-school/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/posts/climate-farm-school/</guid>
@@ -73,7 +81,7 @@ Why prioritize sustainability in AI AI Model Training utilizes cloud GPUs that r
 I recently attended Terra.do&amp;rsquo;s Climate Farm School, which asks attendees to examine innovation in our food systems in the wake of climate change. The experience was so positive and essential to my understanding of what we eat and how it contributes to the health of our planet, that I started to wonder whether such a course might not be a requirement of all people who wish to grow food, or eat the food grown by others.</description>
     </item>
     <item>
-      <title>Highlights from the State of Green Software</title>
+      <title>Highlights from the State of Green Software 🔋</title>
       <link>/posts/state-of-green-software-2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/posts/state-of-green-software-2023/</guid>
@@ -82,7 +90,7 @@ Here are a summary of my highlights.
 Business Case for Green Software: Growing Market: The green software services market was valued at $12.46 billion. Forecasted to reach $34.83 billion by 2030. Pitchbook expects climate tech jobs to be a $1.</description>
     </item>
     <item>
-      <title>Where do you start? Create a Climate Action Venn Diagram</title>
+      <title>Where do you start? Create a Climate Action Venn Diagram ♾️</title>
       <link>/posts/climate-venn/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       <guid>/posts/climate-venn/</guid>
@@ -90,7 +98,7 @@ Business Case for Green Software: Growing Market: The green software services ma
 I finally decided to make my own, which revealed a few interesting things to me (physicality, martyrdom, human connection), and clarified others.</description>
     </item>
     <item>
-      <title>Create Your Future of Food</title>
+      <title>Create Your Future of Food 🌱</title>
       <link>/posts/future-of-food/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/posts/future-of-food/</guid>
@@ -98,7 +106,7 @@ I finally decided to make my own, which revealed a few interesting things to me 
 Using chatGPT4&amp;rsquo;s ability to create both textual completions and images, I set up a brief mad lib style questionnaire.</description>
     </item>
     <item>
-      <title>The Seer &amp; the Supersensorium</title>
+      <title>The Seer &amp; the Supersensorium 🔮</title>
       <link>/posts/exit-the-supersensorium/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
       <guid>/posts/exit-the-supersensorium/</guid>
@@ -106,7 +114,7 @@ Using chatGPT4&amp;rsquo;s ability to create both textual completions and images
 I loved the weird imperfection and unexpected surprises. I thought this would be an amazing tool in the hands of an artist - but the technical barriers were high.</description>
     </item>
     <item>
-      <title>The need for repairability data in the move to greener electronics</title>
+      <title>The need for repairability data in the move to greener electronics 🛠️</title>
       <link>/posts/electronics-repairability-dataset-generation/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
       <guid>/posts/electronics-repairability-dataset-generation/</guid>
@@ -115,28 +123,28 @@ My plan going forward is to try and add the iFixIt scores, make the process of o
 Let me know if this is useful or if you find other sources of data!</description>
     </item>
     <item>
-      <title>Cliff Notes - What We Owe The Future</title>
+      <title>Cliff Notes - What We Owe The Future 💸</title>
       <link>/posts/cliff-notes-what-we-owe/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       <guid>/posts/cliff-notes-what-we-owe/</guid>
       <description>In a pre- Sam Bankman Fried past longtermism held more intrigue for me. I&amp;rsquo;ve since developed an aversion to an ideology that places the preservation of human life at the forefront of all environmental decision making. Nevertheless, I am intrigued by the thought of always keeping &amp;ldquo;the most good for the most amount of people&amp;rdquo; at the forefront of decisionmaking, as well as longtermism&amp;rsquo;s efforts to evaluate the likelihood of various environmental futures.</description>
     </item>
     <item>
-      <title>Sustainable Travel Ain&#39;t Easy</title>
+      <title>Sustainable Travel Ain&#39;t Easy 🚃</title>
       <link>/posts/foiled-attempt-to-travel-sustainably/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/posts/foiled-attempt-to-travel-sustainably/</guid>
       <description>After running the numbers on the flights to Hawaii for Mozilla&#39;s all-hands meeting, I resolved to make my next business trip by a more sustainable air-travel alternative. The opportunity came via a training in our San Francisco offices, just near enough to Portland to consider traveling by train, car, or bus. I knew flights from Portland to the bay were cheap, numerous and, most enticingly, fast. One hour and fifty minutes, one hundred and fifty bucks (with enough advance purchase and flexibility).</description>
     </item>
     <item>
-      <title>Climate data for meaningful personal impact</title>
+      <title>Climate data for meaningful personal impact 📈</title>
       <link>/posts/climate-numbers-you-can-use/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/posts/climate-numbers-you-can-use/</guid>
       <description>It&#39;s getting hot in here... The best indicator we have for the severity of our myriad environmental issues is the temperature of our planet. And it&#39;s getting hotter everywhere, as seen below in this graph of global temperature anomalies. While a few degrees might not seem like a lot, even 2 degrees change would equate to about 15 feet of sea level rise. The level of CO2 in our atmosphere makes this problem worse - locking that heat in to our atmosphere for thousands of years, despite improvements we may make on carbon reduction.</description>
     </item>
     <item>
-      <title>Top Environmental Highlights of 2022</title>
+      <title>Top Environmental Highlights of 2022 🎞️</title>
       <link>/posts/environment-highlights-2022/</link>
       <pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate>
       <guid>/posts/environment-highlights-2022/</guid>
@@ -145,7 +153,7 @@ Climate Change We need to be making more progress faster:
 Of the 40 indicators of global warming-limiting measures of progress established by the Intergovernmental Panel on Climate Change, none are on track to reach their 2030 targets. Six are heading in the right direction at a promising but insufficient speed, while 21 are also trending in the right direction but well below the required pace.</description>
     </item>
     <item>
-      <title>Calculating Product Carbon Emissions with Ditch Carbon</title>
+      <title>Calculating Product Carbon Emissions with Ditch Carbon 😶‍🌫️</title>
       <link>/posts/pni-carbon/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       <guid>/posts/pni-carbon/</guid>
@@ -154,30 +162,31 @@ Every Year Mozilla conducts its Privacy Not Included product review - evaluating
 I wanted to see if next year we can include the energy usage or carbon footprint of these products in the review. So I decided to build a carbon footprint calculator for the products in this year&amp;rsquo;s privacy not included review as a prototype in order to hopefully persuade the team to include it next year.</description>
     </item>
     <item>
-      <title>A Carbon Calculator for Company Travel</title>
+      <title>A Carbon Calculator for Company Travel 🗺️</title>
       <link>/posts/multi-flight-carbon-calculator/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/posts/multi-flight-carbon-calculator/</guid>
-      <description>Try it out here
+      <description>:ai
+Try it out here
 My company hosted its annual off-site trip for all 1000+ employees in Hawaii. In the process of trying to estimate and understand the implications of this on the environment, I built a tool that estimates the carbon for multiple people traveling to a single destination.
 Why Do We Need This? Flying is one of the most carbon intensive activities an individual can do. A single flight emits more CO2 than a single person in Uganda does in a year.</description>
     </item>
     <item>
-      <title>Cliff Notes - How it is</title>
+      <title>Cliff Notes - How it is 🐢</title>
       <link>/posts/how-it-is/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/posts/how-it-is/</guid>
       <description>I believe that taking meaningful restorative action for the planet starts with changing our culture, and that culture change requires an understanding of other ways of being. In my own search for alternatives, I read &amp;ldquo;How It Is&amp;rdquo;, by Viola Cordova - a Jicarilla Apache / Hispanic professor of classical Western &amp;amp; Native American philosophy. In Viola&amp;rsquo;s words, &amp;ldquo;I study white people.&amp;rdquo; The book helped me see blindspots in my own world view, as well as insights into a belief system that might make that culture shift possible.</description>
     </item>
     <item>
-      <title>What if I didn&#39;t take that all-expenses paid trip?</title>
+      <title>What if I didn&#39;t take that all-expenses paid trip? ✈️</title>
       <link>/posts/what-if-i-didnt-fly/</link>
       <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/posts/what-if-i-didnt-fly/</guid>
       <description>I love to travel. In fact, for the last 25 years I had made it a goal to visit at least one new country a year, because to me, travel felt like the marker of a life fully lived. So when, after 2 years of pandemic isolation, my company resumed its annual all-company offsite meeting in Hawaii, I should have been ecstatic. It was after all not just travel, but free travel.</description>
     </item>
     <item>
-      <title>AI Tradeoffs</title>
+      <title>AI Tradeoffs ⚖️</title>
       <link>/posts/ai-tradeoffs/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/posts/ai-tradeoffs/</guid>
@@ -186,7 +195,7 @@ You can watch the video at the link above, but here&amp;rsquo;s a summary of thi
 GPT3 required an estimated 85,000 kg of CO2 to train.</description>
     </item>
     <item>
-      <title>We Are the Weather</title>
+      <title>We Are the Weather ⛅</title>
       <link>/posts/we-are-the-weather/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/posts/we-are-the-weather/</guid>
