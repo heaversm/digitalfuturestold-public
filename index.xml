@@ -6,8 +6,24 @@
     <description>Recent content in Tech. Climate. Culture on Digital Futures Told</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overcoming the Other AI 📱</title>
+      <link>/posts/overcoming-artificial-intimacy/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/overcoming-artificial-intimacy/</guid>
+      <description>&amp;ldquo;If you don&amp;rsquo;t know me and I you, a pattern that others put in place may prevail in the world.&amp;rdquo; - Malidoma Somé
+1. Focus on the living. Last year I ended a long term relationship, the latter years through which I felt I was mostly sleepwalking. In the aftermath I found countless examples of how the lifestyle I designed for myself - one focused on achievement, speed, novelty, and scale - was getting in the way of human connection.</description>
+    </item>
+    <item>
+      <title>Measure the environmental impact of your website ☁️</title>
+      <link>/posts/impact-framework-website-carbon/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/impact-framework-website-carbon/</guid>
+      <description>Co-written by: Irete Hamdani, Rachael Robinson, Rachana Kabi, Omar Faris, and Alexander zur Bonsen
+Are you interested in using the Green Software Foundation’s Impact Framework for measuring the environmental impact of your website, but don’t know where to start? We’re a group of technologists finding our way in the world of sustainability and wanted to share our advice. This is the guide we wish we’d had when we first tried the Impact Framework out for ourselves.</description>
+    </item>
     <item>
       <title>Cliff Notes - Where the Water Goes 💧</title>
       <link>/posts/where-the-water-goes/</link>
