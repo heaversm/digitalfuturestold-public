@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Measure the environmental impact of your website ☁️ - Digital Futures Told</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/posts/impact-framework-website-carbon/" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.38154e620b023b686a9bb1375f31dcabdca8c1a1be08652d04943e5e8f3fe1a4.css">
+  
+
+  
+    <meta name="description" content="Using the Impact Framework from the Green Software Foundation"/>
+    <meta property="og:title" content="Measure the environmental impact of your website ☁️"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/impact-framework-website-carbon/"/>
+    
+    <meta property="og:description" content="Using the Impact Framework from the Green Software Foundation"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@HeaversMike"/>
+    <meta name="twitter:creator" content="@HeaversMike"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Digital Futures Told</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog active">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Measure the environmental impact of your website ☁️<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>Co-written by: Irete Hamdani, Rachael Robinson, Rachana Kabi, Omar Faris, and Alexander zur Bonsen</p>
+<p>Are you interested in using the Green Software Foundation’s Impact Framework for measuring the environmental impact of your website, but don’t know where to start? We’re a group of technologists finding our way in the world of sustainability and wanted to share our advice. This is the guide we wish we’d had when we first tried the Impact Framework out for ourselves. It was written as part of the <a href="https://hack.greensoftware.foundation">Carbon Hack 24</a> hackathon, along with a <a href="https://youtube.com/watch?v=5WImTN8840E">video tutorial</a> for running the Impact Framework.</p>
+<h2 id="before-we-get-started---key-concepts">Before we get started - key concepts</h2>
+<p>In this guide, we’ll be referring to a number of Green Software concepts. If you’re new to this area, have a look at the Green Software Foundation’s <a href="https://learn.greensoftware.foundation/">free training</a>, which will familiarize you with the important ideas within a few hours. In particular, we will reference:</p>
+<ul>
+<li><strong>Carbon equivalent</strong>: a unit of measurement for any greenhouse gas that standardises its impact against a gram of carbon dioxide</li>
+<li><strong>Operational energy usage</strong>: the electrical energy used in computation</li>
+<li><strong>Embodied/embedded carbon</strong>: the carbon dioxide equivalent that is created by the manufacture and disposal of hardware</li>
+<li><strong>Carbon intensity</strong>: the proportion of electrical energy used that comes from greenhouse gas emitting sources</li>
+<li><strong>Functional unit</strong>: the unit of measurement an organization chooses to compare their emissions against - e.g. are they interested in grams of carbon equivalent emitted per second, per hour, per page load, per database transaction, per completed user journey…</li>
+<li><strong>The <a href="https://sci-guide.greensoftware.foundation/">Software Carbon Intensity</a> standard</strong>: a way to quantify the level of greenhouse gases emitted by a software product that takes into account operational energy, embodied carbon, carbon intensity and a team’s functional unit</li>
+</ul>
+<p>If you’re reading this and are also thinking: ‘But what even is the Impact Framework?’, then we’d strongly recommend looking at the Green Software Foundation’s introduction <a href="https://if.greensoftware.foundation/">here</a>. In summary, the Impact Framework is a way to compute and report the environmental impacts of software applications. It can:</p>
+<ul>
+<li>Transform observations into impacts</li>
+<li>Engage an existing library of plugins or create new plugins for your use case</li>
+<li>Explore What-If scenarios</li>
+<li>Allow others to understand, verify and challenge the entire process through a decentralized and transparent structure</li>
+<li>Empower others to run the analysis themselves and validate your findings</li>
+</ul>
+<p>The Impact Framework is an early-stage, open-source project with a large number of contributors from different organizations. As it’s in this early stage, key details are still being worked out and may change. It also means that users of the project like us have the opportunity to shape its direction with feedback and by building new resources and components.</p>
+<p>You will need access to GitHub to use the Impact Framework project. GitHub is a collaboration platform that is popular with coders, but not used exclusively by them. If you would like a guide to using GitHub, then check out this <a href="https://www.freecodecamp.org/news/git-and-github-crash-course/">video</a>.</p>
+<h2 id="so-youve-decided-to-use-the-impact-framework-for-your-website-what-now">So, you’ve decided to use the Impact Framework for your website, what now?</h2>
+<p>The Impact Framework is designed to allow users to tweak it for their specific needs. To personalize the Impact Framework for your website, you’ll need to write a specially formatted .yaml file called the ‘manifest file’. This takes a few steps:</p>
+<ol>
+<li>Decide on the project scope</li>
+<li>Choose (or make) evaluation ‘plugins’</li>
+<li>Collect your input data</li>
+<li>Write up the manifest file</li>
+<li>Run the Impact Framework</li>
+</ol>
+<p>Once you’ve run the Impact Framework, you can use the resulting output data to understand and make improvements to your system.</p>
+<h3 id="stage-1-decide-on-project-scope">Stage 1: Decide on project scope</h3>
+<p>One of the advantages of the Impact Framework is that it is incredibly flexible, so it could theoretically be used for calculating:</p>
+<ul>
+<li>The amount of carbon dioxide emitted by somebody going through the full web journey of applying for a passport online</li>
+<li>The amount of water used when fine-tuning a particular image recognition model to differentiate between photos of different brands of cars</li>
+<li>The per-hour cost of electricity to run an on-premises server for an individual hospital IT system</li>
+</ul>
+<p>This flexibility means that you will need to make some decisions about what kind of impact you want to be evaluating with the impact framework. There are a few key decisions:</p>
+<ol>
+<li><strong>What kind of impact are you interested in?</strong> At the moment, there are more plugins to support you with calculating carbon emissions (or their equivalent), but don’t feel you have to be limited to this. As in the examples above, you could look at water use or financial cost - or something else entirely.</li>
+<li><strong>What’s the ‘<a href="https://learn.greensoftware.foundation/measurement/#how-to-calculate-your-sci-score">functional unit</a>’ you’re interested in?</strong> You could calculate impact per hour, or per HTTP request. However, it’s worth considering a more outcome-focused unit - e.g. ‘a user completing a passport application journey online’.</li>
+<li><strong>What are you counting as part of your website’s impact?</strong> Where does your website create an environmental impact? The most obvious sources are the electricity usage of your users accessing the site, and of your servers hosting and processing data. There’s also the electricity used by developers when writing, testing and deploying code and all the resources used in creating the devices used to develop, host or access the website.</li>
+<li><strong>How are you going to divide up your project?</strong> When calculating the impact of your website, the Impact Framework suggests dividing up the site into different components and calculating the impact of each of these separately. In the diagram below, this means: data center emissions, networks, devices and production.</li>
+</ol>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/diagram.webp" alt="Website Measurement Components Diagram - Data Center, Networks, Devices, and Production"></p>
+<p>The diagram (based on <a href="https://fershad.com/writing/thinking-about-a-way-to-estimate-website-energy-use/">these</a> <a href="https://fershad.com/writing/why-are-you-estimating-digital-carbon-emissions/">articles</a> from Fershad Irani and data from <a href="https://sustainablewebdesign.org/calculating-digital-emissions/">here</a>) outlines options for calculating the impact of a website. The Impact Framework is an example of using the Consequential model for estimation, as it involves considering the impact of each component individually.</p>
+<p>If you find yourself getting overwhelmed with the number of project components or the breadth of potential impact of your site, then choose one area to focus on first. If you’re not sure where to start, have a look at the current options for evaluation plugins - see the section below - and choose an area that’s better supported by the Impact Framework community.</p>
+<h3 id="stage-2-choose-or-make-evaluation-plugins">Stage 2: Choose (or make) evaluation plugins</h3>
+<h4 id="what-is-an-impact-framework-plugin">What is an Impact Framework plugin?</h4>
+<p>Unfortunately, there’s no magic device we can plug into a user’s computer or server that will tell us the carbon dioxide emitted by them using a website. Instead, we have to find a way to transform the data we can collect (e.g. kb transferred in an HTTP request) into what we want to calculate (e.g. energy consumption).</p>
+<p>Researchers have developed a number of ‘plugins’, which are tools that perform these calculations. For example, the <a href="https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/sci-o/README.md">SCI-O</a> plugin from the Green Software Foundation calculates the carbon emitted by an application. This is based on information the user provides about energy used by the application and the carbon intensity of the electricity grid while the application was used.</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_1.jpeg" alt="SCI-O diagram"></p>
+<p>In a different example, the TEADS AWS plugin calculates both the energy (in kWh) used by an Amazon Web Services server while running a site over a particular time period and the carbon used in creating and disposing of the server. This is based on the type of server instance, the percentage CPU usage and the length of time measured.</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_2.jpeg" alt="TEADS-AWS diagram"></p>
+<p>The Impact Framework is composable - so you can take the output of one plugin and feed it into another: for example, taking the energy calculation from the TEADS-AWS plugin and using it as an input in the SCI-O plugin.</p>
+<p>Here’s an example of a pipeline with three plugins used to calculate the carbon emissions for a website hosted on AWS. The final plugin in the chain brings together the embodied carbon from the first plugin and the operational carbon from the second, along with information about the time spent and the user’s choice of ‘functional unit’. It uses these to work out not only the total carbon emissions during the period, but also the carbon emissions per functional unit.</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_3.jpeg" alt="full pipeline"></p>
+<h4 id="how-do-i-choose-plugins">How do I choose plugins?</h4>
+<p>Firstly, have a look at what plugins are available. Plugins maintained by the Green Software Foundation are listed in their <a href="https://github.com/Green-Software-Foundation/if-plugins">if-models</a> repository. In the early days of the Impact Framework, other organizations’ plugins were put in the <a href="https://github.com/Green-Software-Foundation/if-unofficial-plugins/">if-unofficial-models</a> repository, but increasingly these are now found in organizations’ own GitHub spaces. See <a href="https://if.greensoftware.foundation/reference/plugins">this list</a> compiled by the Green Software Foundation for a summary of what’s currently available.</p>
+<p>Choose a plugin that corresponds to the website component you want to examine. For static sites or application front ends, look at the <a href="https://github.com/wr24-greenit/if-webpage-plugins/">if-webpage-plugins</a> MeasureWebpage plugin, which calculates the transfer weight of a website in bytes, also modeling the impact of repeat visits.  If you’re interested in the impact of server-side activities, the <a href="https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/ccf/README.md">Cloud Carbon Footprint</a> calculates the operational energy and embodied carbon impact of a cloud-hosted application.</p>
+<p>Of course, you may not be able to find the perfect plugin for your website. You can always have a go at writing your own!</p>
+<h4 id="how-do-i-turn-plugins-into-a-pipeline">How do I turn plugins into a pipeline?</h4>
+<p>A good place to start is looking into existing examples of pipelines that you can use or adapt. You can find sample pipelines in the example manifests shared by the <a href="https://github.com/Green-Software-Foundation/if/tree/main/examples/manifests">Green Software Foundation</a>. Many of the plugin developers have also shared example pipelines and manifests. For example, if you are interested in estimating the impact of your webpage across all segments of the internet (from consumer device use, network use, data center use and hardware production), the <a href="https://github.com/wr24-greenit/if-webpage-plugins/">if-webpage-plugins</a> repo has a <a href="https://github.com/wr24-greenit/if-webpage-plugins/blob/main/example-manifests/measure-webpage.yml#L30">sample pipeline</a>.</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_4.jpeg" alt="timer-start to measure-webpage to timer-stop  to  green-hosting  to co2js"></p>
+<p>The measure-webpage and green-hosting plugin gather information that is needed to estimate the carbon impact of your webpage. These parameters are then passed to the <a href="https://sustainablewebdesign.org/calculating-digital-emissions/">sustainable web design model</a> (swd) that is included in the co2js plugin. You can configure further optional parameters of the swd model as you see fit for your use case (see <a href="https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/co2js/README.md">co2js README</a>). This pipeline follows the same approach as for example <a href="http://websitecarbon.com">websitecarbon.com</a> and <a href="http://ecograder.com">ecograder.com</a>. It has the advantage that you can fully configure the parameters that go into your swd model / co2js plugin and make them transparent in the manifest file. The MeasureWebpage Plugin also makes an attempt to approximate the amount of reloaded data on a repeat visit. And if you wish you can also generate an additional lighthouse report.
+The timer steps are auxiliary methods that create an accurate timestamp and duration for your measurement.
+For further details on the estimation approach of the swd model, check out this <a href="https://sustainablewebdesign.org/calculating-digital-emissions/">link</a>.</p>
+<p>Alternatively, if you are investigating the impact of your website server, you could start with the <a href="https://github.com/heaversm/carbonhack-if/raw/main/manifest-input/manifest-in.yaml#L61">pipeline</a> from our <a href="https://youtu.be/5WImTN8840E">video</a>. This calculates the carbon dioxide equivalent that would be emitted by a theoretical cloud-hosted application. Here’s the existing pipeline:</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_5.jpeg" alt="mock-observations to group-by to time-sync to cloud-metadata to watttime to teads-curve to operational-carbon"></p>
+<p>If you were going to adapt this pipeline, you could replace the mock-observations plugin with real observations from your own website server. Or, if you want to expand the outputs of the pipeline to account for embodied carbon and calculate a <a href="https://sci-guide.greensoftware.foundation/">Software Carbon Intensity Framework (SCI)</a> impact, you could use elements from <a href="https://github.com/Green-Software-Foundation/if/blob/main/examples/manifests/pipeline-demo-1.yml#L43">this pipeline</a>.</p>
+<p><img src="https://github.com/heaversm/carbonhack-if/raw/main/wiki/image_6.jpeg" alt="sci-e to sci-m to sci-o to time-sync to sci"></p>
+<p>The other option is to create a pipeline for your plugins from scratch. Once you have chosen the plugins you need, you can find others by looking at the data inputted or outputted. Either find plugins that can provide the data your plugin needs, or ones that can transform the data your plugin generates. Do this step by step and you can build a pipeline from data you can observe to a specific impact calculation (e.g. of grams of carbon per network request).</p>
+<p>If you’re looking into more than one website component, you may use a different pipeline for each. For example, one pipeline built around the <a href="https://github.com/wr24-greenit/if-webpage-plugins/blob/main/example-manifests/measure-webpage.yml#L30">if-webpage-plugins</a> example for calculating the impact of your front end and another built around the pipeline in our <a href="https://youtu.be/5WImTN8840E">video</a> for the impact of your server-side processing.</p>
+<h3 id="stage-3-collect-your-input-data">Stage 3: Collect your input data</h3>
+<p>The plugins in the impact framework have various data input requirements. Some of these will be provided by the other plugins in your pipeline. But at some point you’ll have to get some information about your service. As there are so many plugins and more are being developed, we can’t account for every case, but there are some key places you can look for observational data.</p>
+<p>If you’re collecting data about a single-page application or the front end of a traditional website, then you might want to look at bytes transferred. You could try this yourself using your browser’s Developer Tools or use a tool like <a href="https://pptr.dev/">Puppeteer</a>. This is what the <a href="https://github.com/wr24-greenit/if-webpage-plugins/blob/main/src/lib/measure-webpage/README.md">MeasureWebpage</a> plugin uses under the hood, and you can use this to return the size of a website by providing a URL.</p>
+<p>Moving to the back end, plugins calculating the energy usage of cloud-hosted servers such as <a href="https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/ccf/README.md">Cloud Carbon Footprint</a> might ask for information about the cloud instance where your project is hosted. For example, the name of the instance type, a figure for the percentage CPU utilization of the server and how long the CPU utilization was observed(the ‘duration’). To get these results, you’ll need access to either the web console (eg: <a href="https://aws.amazon.com/console/">AWS</a>, <a href="https://azure.microsoft.com/en-gb/get-started/azure-portal">Azure</a> or <a href="https://console.cloud.google.com/">Google Cloud Platform</a>) or the CLI for your cloud provider. If you don’t have this access, talk to a colleague or supplier with that access to either give you permissions to get the data or retrieve it for you. Your cloud provider should have guidance to help you find the data you need (e.g. for CPU utilization: <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/US_SingleMetricPerInstance.html">AWS</a>, <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/monitor-vm?toc=%2Fazure%2Fvirtual-machines%2Ftoc.json#insights">Azure</a> and <a href="https://cloud.google.com/compute/docs/instances/observe-monitor-vms?hl=en#cpu_utilization">Google Cloud Platform</a>), and for common cloud providers the answer might be one internet search away.</p>
+<h3 id="stage-4-write-up-the-manifest-file">Stage 4: Write up the manifest file</h3>
+<p>As the Impact Framework works as an automated process, it has expectations of the structure of this input file. At the highest level, it is broken down into three parts:</p>
+<ol>
+<li>Metadata: basic information about your project</li>
+<li>Initialize: this is where you specify the plugins you will be using in your pipelines</li>
+<li>Tree: this is used for defining what you will be measuring</li>
+</ol>
+<p>We’ll be looking at Mike’s <a href="https://github.com/heaversm/carbonhack-if/raw/main/manifest-input/manifest-in.yaml">manifest from the video</a> as an example, but you can also find <a href="https://github.com/wr24-greenit/if-webpage-plugins/blob/main/example-manifests/measure-webpage.yml">other examples</a> to help you build your manifest.</p>
+<h4 id="metadata">Metadata</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="c"># PART 1: Metadata</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># This is meant to be read by humans, so can contain</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># any information you like</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">My Manifest File</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">My First Manifest File 💚</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>ATTRIBUTE NAME</th>
+<th>WHAT IS IT</th>
+<th>REMARK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>Name of the pipeline</td>
+<td>A code repository can have several manifest yaml files with versions. Hence this name attribute inside the manifest file distinguishes each one.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>Metadata for what the pipeline is supposed to measure</td>
+<td>Describes the purpose of the file and any difference between previous versions.</td>
+</tr>
+</tbody>
+</table>
+<p>The information in the metadata section is not used directly by the Impact Framework, so you can be more flexible with what it contains. It’s designed to be a guide for people outside your project looking at the manifest file to explain what your website does.</p>
+<h4 id="initialize">Initialize</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># Part 2: Initialize</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># This is where you set up your plugins</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">initialize</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">outputs</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;yaml&#39;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">plugins</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">group-by</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;builtin&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">GroupBy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">operational-carbon</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;@grnsft/if-plugins&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">Multiply</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">global-config</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">input-parameters</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;cpu/energy&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;grid/carbon-intensity&#39;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">output-parameter</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;carbon&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">watttime</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;@grnsft/if-unofficial-plugins&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">WattTimeGridEmissions</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">teads-curve</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;@grnsft/if-unofficial-plugins&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">TeadsCurve</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">global-config</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">interpolation</span><span class="p">:</span><span class="w"> </span><span class="l">spline</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">cloud-metadata</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">CloudMetadata</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;@grnsft/if-plugins&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">mock-observations</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;@grnsft/if-plugins&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">MockObservations</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">global-config</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">timestamp-from</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2024-03-05T00:00:00.000Z&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">timestamp-to</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2024-03-05T00:01:00.000Z&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">duration</span><span class="p">:</span><span class="w"> </span><span class="m">10</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">components</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">         </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">server-1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cloud/instance-type</span><span class="p">:</span><span class="w"> </span><span class="l">Standard_E64_v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cloud/region</span><span class="p">:</span><span class="w"> </span><span class="l">westus3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">         </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">server-2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cloud/instance-type</span><span class="p">:</span><span class="w"> </span><span class="l">Standard_E64_v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cloud/region</span><span class="p">:</span><span class="w"> </span><span class="l">westus3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">generators</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">common</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cloud/vendor</span><span class="p">:</span><span class="w"> </span><span class="l">azure</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">randint</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">           </span><span class="nt">cpu/utilization</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">             </span><span class="nt">min</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">             </span><span class="nt">max</span><span class="p">:</span><span class="w"> </span><span class="m">99</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">&#39;time-sync&#39;</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">TimeSync</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;builtin&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">global-config</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">start-time</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2024-03-05T00:00:00.000Z&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">end-time</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2024-03-05T00:01:00.000Z&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="nt">allow-padding</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>ATTRIBUTE NAME</th>
+<th>WHAT IS IT</th>
+<th>REMARK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>initialize</td>
+<td>A: Initialize the format for the output to be stored in. B: List the Plugins to be used in the measurement C: Global-config for each plugin as required</td>
+<td></td>
+</tr>
+<tr>
+<td>outputs</td>
+<td>An array of the formats for the output to be stored in.</td>
+<td></td>
+</tr>
+<tr>
+<td>path</td>
+<td>Where the Impact Framework can find the plugin.</td>
+<td>Should be listed for each plugin. Please note ‘environment variable’ is to be set up in your package.json as dependencies with registration credentials</td>
+</tr>
+<tr>
+<td>method</td>
+<td>The name of the plugin as it is exported from its code.</td>
+<td>Should be listed for each plugin. Do not change this name from the example in the plugin documentation on GitHub.</td>
+</tr>
+<tr>
+<td>global-config</td>
+<td>Plugin-specific configuration.</td>
+<td>Optional. Check the plugin documentation for what to include.</td>
+</tr>
+</tbody>
+</table>
+<p>Plugins must be listed here before they can be used in a pipeline. For each plugin, you should separately give the path, method and (if required) global-config.</p>
+<h4 id="tree">Tree</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># Part 3: Tree</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># This is where you list what you will be measuring</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># In more complex applications, you might have several nested components</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># listed in the tree, each with their own pipeline, defaults, config, inputs etc.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">tree</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">pipeline</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">mock-observations</span><span class="w"> </span><span class="c">#provides sample usage data from a given geographic region with a simulated cpu / memory utilization.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">group-by</span><span class="w"> </span><span class="c">#groups inputs, in this case cloud and region</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">time-sync</span><span class="w"> </span><span class="c">#standardizes the time format of observations</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">cloud-metadata</span><span class="w"> </span><span class="c">#determine an instance&#39;s physical processor and thermal design power (TDP) based on its instance name (cloud vendor e.g. aws and instance type e.g. m5.large)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">watttime</span><span class="w"> </span><span class="c">#determine the carbon intensity of the grid based on the region (e.g. CAISO)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">teads-curve</span><span class="w"> </span><span class="c">#estimating CPU usages across varying type of CPUs using a Teads Curve (requires CPU TDP, Utilization, and Duration)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span>- <span class="l">operational-carbon</span><span class="w"> </span><span class="c">#combines two or more elements in an array, in this case energy in kWH and grid carbon intensity)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">defaults</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">config</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="nt">group-by</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">     </span><span class="nt">group</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span>- <span class="l">cloud/region</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span>- <span class="l">name</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="nt">inputs</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span></span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>ATTRIBUTE NAME</th>
+<th>WHAT IS IT</th>
+<th>REMARK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tree</td>
+<td>A nested list of the different components in your website, with Impact Framework configurations for each component.</td>
+<td>Each component can have its own calculation pipeline, config, defaults and inputs.</td>
+</tr>
+<tr>
+<td>pipeline</td>
+<td>Lists all the plugins for execution for the measurements in order</td>
+<td>Order of execution of pipelines for the measurement.</td>
+</tr>
+<tr>
+<td>defaults</td>
+<td>Non mandatory. This is used for fallback input values if - for example - an API fails</td>
+<td>In our example, leave empty as per requirement.</td>
+</tr>
+<tr>
+<td>configuration</td>
+<td>Additional configurations which are not specified in the initialization. Check plugin documentation to see if this is needed.</td>
+<td>Example can be group-by for additional grouping.</td>
+</tr>
+<tr>
+<td>inputs</td>
+<td>Can be null if all inputs are covered in initialization. Again, check each plugin to see what is needed. Some pieces of input may be used by more than one plugin.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If you are examining a number of different website components (e.g. front and back end; production and development environments) each with different plugins and pipelines, you might create a nested configuration of your components in this tree. We’ve kept it as simple as possible for this demonstration, but if you’re interested in looking at a nested project, there’s an example manifest <a href="https://github.com/Green-Software-Foundation/if/blob/main/examples/manifests/nesting.yml">here</a>.</p>
+<h4 id="configuring-plugins">Configuring Plugins</h4>
+<p>When we started writing our own manifest files, it was difficult to understand where to put plugin setup information. The GitHub documentation for individual plugins usually states where in the manifest file data and configuration should go. However, it’s worth understanding the difference between the multiple places where configuration can occur within a manifest file:</p>
+<ol>
+<li>
+<p><strong>Global config</strong>: Used for data that is identical wherever the plugin is invoked in any pipeline anywhere in the manifest, even if it is invoked several times across multiple components (e.g. in a frontend component, a backend component and a database component). An example could be the interpolation method used to generate values in the <code>teads-curve</code> plugin - it is one choice that applies everywhere.</p>
+</li>
+<li>
+<p><strong>Node config</strong>: This is for data that stays constant from timestep to timestep, but varies across invocations within a manifest. Maybe you want to use the same plugin but with different configuration in your frontend, backend and database components. An example might be operational-carbon - you might want to invoke the plugin for every component, but each one is located somewhere different in the world so you provide your grid carbon intensity value at the node level.</p>
+</li>
+<li>
+<p><strong>Input data</strong>: The plugins all also receive data from the array of timestamped observations in the manifest file. This is data that can vary from one timestep to the next.</p>
+</li>
+<li>
+<p><strong>Defaults</strong>: You can also provide a set of default values in each component that get injected into each element in the inputs array IF that value does not already exist. This can be used as a fallback in case an API fails, or it can be used as a convenience tool to quickly add values to every timestep across the array.</p>
+</li>
+</ol>
+<h3 id="stage-5-run-the-impact-framework">Stage 5: Run the Impact Framework</h3>
+<p>Once you have your manifest ready with the necessary data, you are ready to run the Impact Framework tool to let the plugins do their calculations. Watch Mike take you through this process step by step in his <a href="https://youtube.com/watch?v=5WImTN8840E">video</a>. He’ll show you:</p>
+<ul>
+<li>What you need to install to run the Impact Framework and how to do this</li>
+<li>What’s included in his manifest file and why</li>
+<li>How to set up a WattTime account to use their plugin</li>
+<li>How to run the command-line prompts (note: this is currently for a Mac/Linux device; Windows users may have to look up alternative commands)</li>
+<li>How to make sense of the data that’s returned.</li>
+</ul>
+<p>If you’ve got this far with your Impact Framework journey, congratulations! Take a look at your output calculation of your project or component’s impact. Your next steps are to find ways to lower that impact. Now that you’ve worked with it, if you have ideas of how to improve the Impact Framework, please share them with the <a href="https://github.com/Green-Software-Foundation/if">wider community</a>. We can’t wait to see where the Framework goes next.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/heaversm" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/heaversm" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>
