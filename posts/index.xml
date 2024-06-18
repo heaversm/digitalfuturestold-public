@@ -9,6 +9,14 @@
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Getting Unstuck</title>
+      <link>/posts/getting-unstuck/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/getting-unstuck/</guid>
+      <description>Getting Unstuck Finding unsolved problems these days in technology in which you, uniquely, are suited to tackle, and can make money is like finding a needle in a haystack. This is precisely my task at Mozilla Innovation, and as such, I can sometimes feel stuck, especially when outnumbered and outspent by tech&amp;rsquo;s dominant players.
+This excellent post from Experimental History&amp;rsquo;s Adam Mastroianni summed up many of the logic fallacies that trip us up on our way to progress.</description>
+    </item>
+    <item>
       <title>Overcoming the Other AI 📱</title>
       <link>/posts/overcoming-artificial-intimacy/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
