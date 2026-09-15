@@ -9,6 +9,14 @@
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Protopia World Stack</title>
+      <link>/posts/protopia-world-stack/</link>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/protopia-world-stack/</guid>
+      <description>As the proliferation of AI begins to transform our interaction patterns with technology (or resistance to them), it has become clear to me that, in my work in innovation for Mozilla, I need to shift my time horizon further into the future to look not at &amp;lsquo;How Will People Use the Browser&amp;rsquo; to &amp;lsquo;What Will the Browser Become?&amp;rsquo;.
+How will people access knowledge on the internet in 3-5 years? How will they interact with it?</description>
+    </item>
+    <item>
       <title>Your Weirdness is Data</title>
       <link>/posts/your-weirdness-is-data/</link>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
